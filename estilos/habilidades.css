@@ -1,0 +1,40 @@
+
+
+#foto_perfil{
+    height:200px;
+    width:200px;
+}
+
+#portada{
+    height: 250px;
+    width: 600px;
+    margin: 10px;
+}
+
+#nombre_estudiante{
+    height: 390px;
+    width: 500px;
+}
+
+#est_sistemas{
+    
+}
+h1{
+    padding: 5px;
+    margin: 10px;
+}
+
+h2{
+    color: burlywood;
+    font-family: 'Roboto', sans-serif;
+}
+
+#habilidades, #experiencia_laboral, #educacion{
+    width: 250px;
+    margin: 5px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
