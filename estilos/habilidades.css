@@ -1,22 +1,26 @@
 
 
 #foto_perfil{
-    height:200px;
-    width:200px;
+    border-radius: 300px;
+    height: 190px;
+    width: 190px;
 }
 
 #portada{
+    display: inline-block;
     height: 250px;
     width: 600px;
     margin: 10px;
 }
 
 h1{
+    display: inline-block;
     padding: 5px;
     margin: 10px;
 }
 
 h2{
+    display: inline-block;
     color: burlywood;
     font-family: 'Roboto', sans-serif;
 }
@@ -30,3 +34,12 @@ body{
     background-color: antiquewhite;
 }
 
+#redes{
+    display: inline-block;
+}
+
+#linkedin_foto, #github_foto{
+    border-radius: 300px;
+    height: 50px;
+    width: 50px;
+}
