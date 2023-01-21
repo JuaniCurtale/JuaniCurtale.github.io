@@ -6,6 +6,14 @@
     width: 100%;
   }
 
+.skills{
+    width: 64px;
+}
+
+#logo_cplusplus{
+    width: 60px;
+}
+
 @media only screen and (max-width: 600px) {
     #foto_perfil {
       width: 40%;
