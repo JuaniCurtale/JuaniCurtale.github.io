@@ -28,10 +28,10 @@ span,p,li {
 
 #portada{
     display: inline-block;
-    background-color: rgba(222, 184, 135, 0.897);
-    background-size: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    background-color: rgba(222, 184, 145, 0.897);
+    background-size: 100%;
+    padding: 15px;
+    border:1px solid grey;
 }
 
 #subtitulo{
@@ -63,6 +63,11 @@ h2{
     margin: 5px;
 }
 
+#linea_foto{
+    display: inline-block;
+    background-color:#deb879;
+}
+
 #nombre_educacion{
     display: inline-block;
     height: 70px;
@@ -71,7 +76,7 @@ h2{
 }
 
 body{
-    background-color: antiquewhite;
+    background-color:burlywood;
     background-size: 100%;
 }
 
