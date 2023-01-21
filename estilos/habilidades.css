@@ -22,7 +22,6 @@
   }
 
 
-
 span,p,li {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -31,6 +30,8 @@ span,p,li {
     display: inline-block;
     background-color: rgba(222, 184, 135, 0.897);
     background-size: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #subtitulo{
