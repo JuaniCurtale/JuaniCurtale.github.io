@@ -6,26 +6,24 @@
     width: 100%;
   }
 
-.skills{
-    width: 64px;
+h1{
+    text-align: left;
+    display: flex;
+    padding: 5px;
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-#logo_cplusplus{
-    width: 60px;
+h2{
+    display: inline-block;
+    color: burlywood;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
-    #foto_perfil {
-      width: 40%;
-      border-radius: 80%;
-    }
-  }
-@media only screen and (min-width: 600px) {
-    #foto_perfil {
-      width: 30%;
-      border-radius: 80%;
-    }
-  }
+body{
+    background-color:burlywood;
+    background-size: 100%;
+}
 
 span,p,li {
     font-family: 'Ubuntu', sans-serif;
@@ -43,30 +41,6 @@ span,p,li {
     font-weight: bold;
 }
 
-#nombre,#carrera,#sobre_mi{
-    text-align: left;
-    display: flex;
-}
-
-h1{
-    text-align: left;
-    display: flex;
-    padding: 5px;
-    margin: 0px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-h2{
-    display: inline-block;
-    color: burlywood;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-#sobre_mi {
-    display: inline-block;
-    margin: 5px;
-}
-
 #nombre_educacion{
     display: inline-block;
     height: 70px;
@@ -74,10 +48,28 @@ h2{
     margin: 5px;
 }
 
-body{
-    background-color:burlywood;
-    background-size: 100%;
+#nombre,#carrera,#sobre_mi{
+    text-align: left;
+    display: flex;
 }
+
+.skills{
+    width: 64px;
+    display: inline-flex;
+}
+
+@media only screen and (max-width: 600px) {
+    #foto_perfil {
+      width: 40%;
+      border-radius: 80%;
+    }
+  }
+@media only screen and (min-width: 600px) {
+    #foto_perfil {
+      width: 30%;
+      border-radius: 80%;
+    }
+  }
 
 #linkedin_foto, #github_foto, #instagram_foto{
     border-radius: 50px;
